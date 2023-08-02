@@ -1,0 +1,16 @@
+import java.util.Arrays;
+
+public class WordSorting {
+    public static void main(String[] args) {
+        String[] words = {"banana", "apple", "orange", "grape", "kiwi"};
+
+        // Сортировка массива строк
+        Arrays.sort(words);
+
+        // Вывод отсортированных слов
+        for (String word : words) {
+            System.out.print(word + " ");
+        }
+        // Output: apple banana grape kiwi orange
+    }
+}
